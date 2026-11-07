@@ -34,7 +34,7 @@ class CategoryScreen extends StatelessWidget {
                     return InkWell(
                       onTap: () {
                         cubit.onChanceCategory(
-                          
+
                           AppCategory.categories[index],
                         );
                       },
